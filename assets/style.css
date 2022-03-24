@@ -1,0 +1,13 @@
+/*
+Theme Name: Avada Child
+Description: Child theme for Avada theme
+Author: MarineBio
+Author URI: https://marinebio.org
+Template: Avada
+Version: 1.0.0
+Text Domain: Avada
+*/
+
+.ui-autocomplete {
+    z-index: 100;
+}
