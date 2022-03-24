@@ -31,15 +31,19 @@
     content: ">";
     color: #fff;
     font-weight: 700;
+    font-size: 14px !important;
 }
 .flex-nav-prev a:before {
     content: "<";
     color: #fff;
     font-weight:  700;
+    font-size: 14px !important;
 }
 .flex-nav-next a {
     color: transparent !important;
+    font-size: 0 !important;
 }
 .flex-nav-prev a {
     color: transparent !important;
+    font-size: 0 !important;
 }
