@@ -2,7 +2,9 @@
 .fusion-megamenu-icon,
 .fusion-social-network-icon,
 .fusion-main-menu-icon,
- #toTop {
+ #toTop,
+ .arrow,
+ .fusion-mobile-menu-icons {
     display: none!important;
 }
 .fusion-footer-widget-area .widget .recentcomments:before,
@@ -13,6 +15,31 @@
 .fusion-footer-widget-area .widget_nav_menu li a:before,
 .fusion-footer-widget-area .widget_pages li a:before,
 .fusion-footer-widget-area .widget_recent_entries li a:before,
-.fusion-footer-widget-area .widget_rss li a:before {
+.fusion-footer-widget-area .widget_rss li a:before,
+.fusion-widget-area .widget .recentcomments:before,
+.fusion-widget-area .widget_archive li a:before,
+.fusion-widget-area .widget_categories li a:before,
+.fusion-widget-area .widget_links li a:before,
+.fusion-widget-area .widget_meta li a:before,
+.fusion-widget-area .widget_nav_menu li a:before,
+.fusion-widget-area .widget_pages li a:before,
+.fusion-widget-area .widget_recent_entries li a:before,
+.fusion-widget-area .widget_rss li a:before {
     content:  '';
+}
+.flex-nav-next a:after {
+    content: ">";
+    color: #fff;
+    font-weight: 700;
+}
+.flex-nav-prev a:before {
+    content: "<";
+    color: #fff;
+    font-weight:  700;
+}
+.flex-nav-next a {
+    color: transparent !important;
+}
+.flex-nav-prev a {
+    color: transparent !important;
 }
