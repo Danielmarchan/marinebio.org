@@ -47,3 +47,6 @@
     color: transparent !important;
     font-size: 0 !important;
 }
+#graph-body img {
+    margin-bottom: 15px;
+}
